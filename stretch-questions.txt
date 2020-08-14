@@ -1,0 +1,28 @@
+Stretch Questions
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is a way of breaking down webpage content into discernable groups. 
+This markup can help those with accessibility tools better understand how to view your website, 
+and improve search engine optimization (SEO) know what the main content of your site is. 
+Standard semantic HTML is <header><nav><main><section>& <footer>.
+
+2. Name two big differences between display: block; and display: inline;.
+The two significant differences between block and inline elements are those block elements 
+will always start a new line on the page. In contrast, inline will have elements next to other 
+inline elements. Another difference is that inline elements can usually only contain other inline 
+elements and data, which block elements can include both. Display:block and display:inline can 
+adjust how an element is displayed on the page.
+
+3. What are the 4 areas of the box model?
+The four areas of the box model, from inside-out are: content > padding > border > margin.
+
+4. While using flexbox, what axis does the following property work on: align-items: center?
+Align-items: center will work with the cross-axis while using flexbox. 
+So if you were working with rows, that would be the traditional "y-axis," 
+and if your content were in columns, that would be the "x-axis."
+
+5. Explain why git is valuable to a team of developers.
+Git allows users and teams to collaborate, make changes, notate changes, and create projects 
+together. Developers find Git valuable to enable multiple teams to work on projects. 
+It creates a cohesive workflow for saving work, and Git allows organizations and users to 
+even ask the developer community for help to solve bugs and create new content.  
