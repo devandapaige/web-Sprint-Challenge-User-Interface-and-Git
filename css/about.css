@@ -206,16 +206,17 @@ header .topImg {
 .containerLearnMore .LearnMoreItems h3 {
   margin-top: 1rem;
 }
-.containerLearnMore .LearnMoreItems button {
+/* "button" for "learn more" */
+.learnMore {
+  appearance: button;
   margin: 1rem 0 0;
   padding: 0.8rem;
   border-radius: 10px;
   border: solid black 2px;
   background: white;
-  font-weight: 500;
   transition: ease-in-out 0.6s;
 }
-.containerLearnMore .LearnMoreItems button:hover {
+.learnMore:hover {
   cursor: pointer;
   background: black;
   color: white;
